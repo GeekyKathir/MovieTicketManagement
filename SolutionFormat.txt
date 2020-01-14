@@ -1,0 +1,14 @@
+1. Ask for the user or admin details
+2. If admin, ask login credentials
+3. Admin have rights to add the data (Movie Name, Genre, Format, Language, Show date, Show time, Ticket Price, Total Tickets)
+   Save the above list in the MovieList.csv
+4. Admin also have the rights to view the list of Users till now from the list
+5. If user, Ask new user or registered user
+6. If new user, ask Name, Username, Password, RetypePassword to Confirm registration (Hide the Password)
+   (If username already available, ask the user to enter new user name)
+7. After registration, ask for the login details and proceed to the ticket booking, If not through the error message
+8. If registered user proceed to the Booking directly
+9. User can able to see the list of the movies from the MovieList.csv
+10. When User booked One ticket, reduce the count in the MovieList.csv
+11. User allowed to book only 10 tickets per time
+12. After booking, User can save the tickets in .pdf form in preferred directory
